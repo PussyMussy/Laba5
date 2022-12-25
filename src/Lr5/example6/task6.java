@@ -18,13 +18,13 @@ public class task6 {
         }
 
     task6(int num1, int num2) {
-            System.out.println("Конструктор Example_6() c 2-я аргументами");
+            System.out.println("Конструктор task6() c 2-я аргументами");
             min = Math.min(num1,num2);
             max = Math.max(num1,num2);
         }
 
     task6(int num) {
-            System.out.println("Конструктор Example_6() c 1-м аргументом");
+            System.out.println("Конструктор task6() c 1-м аргументом");
             min = Math.min(min, num);
             max = Math.max(max, num);
         }
